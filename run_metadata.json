@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "dtype": "bfloat16",
+  "device": "cpu",
+  "decoding": "greedy (do_sample=False)",
+  "preview_chars": 300,
+  "models_attempted": [
+    "ChatGLM3-6B",
+    "Qwen-7B-Chat",
+    "Baichuan2-7B-Chat"
+  ],
+  "models_run": [
+    "ChatGLM3-6B",
+    "Qwen-7B-Chat"
+  ],
+  "load_times_sec": {
+    "ChatGLM3-6B": 41.4,
+    "Qwen-7B-Chat": 1.6
+  }
+}
